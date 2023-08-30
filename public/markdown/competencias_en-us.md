@@ -1,7 +1,0 @@
-**Interpersonal Competencies**
-
-- With an exceptional self-taught ability, I quickly grasp new technologies and programming concepts. I hold the firm belief that there is no knowledge beyond my comprehension, constantly motivating me to expand my horizons.
-- I am methodical and detail-oriented, ensuring that every element, down to the smallest dot, is exactly where it should be. My attention to detail ensures high-quality work in all tasks I undertake.
-- I have an innate Quality Assurance (QA) spirit, I conduct countless self-directed tests to identify and correct any kind of error, whether it be functional, layout, or logical. This proactive approach contributes to the delivery of more refined and reliable end products.
-- I am highly proactive in problem-solving, applying a sharp focus on the effective use of my technical and practical knowledge. This ability not only enables me to efficiently resolve challenges but also contributes to the continuous improvement of the projects I am involved in.
-- With an outstanding focus on efficiency, I have a special knack for identifying and applying practical and innovative approaches to problem-solving and resource optimization. This focus allows me to maximize productivity without sacrificing quality, yielding superior results in all aspects.

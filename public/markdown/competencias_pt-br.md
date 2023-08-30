@@ -1,7 +1,0 @@
-**Competências Interpessoais**
-
-- Com uma excepcional habilidade autodidata, rapidamente compreendo novas tecnologias e conceitos de programação. Mantenho a firme crença de que não há conhecimento além da minha compreensão, o que me motiva constantemente a expandir meus horizontes.
-- Sou metódico e perfeccionista quando se trata de detalhes, garantindo que cada elemento, até mesmo o menor ponto, esteja exatamente onde deveria estar. A minha atenção ao detalhe assegura um trabalho de alta qualidade em todas as atividades que desenvolvo.
-- Possuo um espírito inato de Garantia de Qualidade (QA), realizo inúmeros testes por conta própria para identificar e corrigir qualquer tipo de erro, seja ele funcional, de layout ou de lógica. Esta abordagem proativa contribui para a entrega de produtos finais mais refinados e confiáveis.
-- Sou altamente proativo na resolução de problemas, aplicando um foco aguçado na utilização eficaz do meu conhecimento técnico e prático. Essa habilidade não apenas me permite resolver desafios de forma eficiente, mas também contribui para a melhoria contínua dos projetos em que estou envolvido.
-- Com um foco incansável na eficiência, tenho uma habilidade especial para identificar e aplicar abordagens práticas e inovadoras na resolução de problemas e na otimização de recursos. Este foco me permite maximizar a produtividade sem sacrificar a qualidade, gerando resultados superiores em todos os aspectos.
