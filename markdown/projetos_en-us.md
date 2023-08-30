@@ -18,7 +18,7 @@
 6. [Shopper Technical Challenge:](https://github.com/DevArqSangoi/shopper-desafio)
     - Developed a platform for managing and updating product prices via CSV files, using React for the front-end and Node.js for the back-end, with the implementation of business rules and error handling.
 
-7. [Script Python para Tratamento Vídeos:](https://github.com/DevArqSangoi/das-splitOrJoin)
+7. [Python Script for Video Processing:](https://github.com/DevArqSangoi/das-splitOrJoin)
     - Desenvolvimento de um script em Python que permite dividir um vídeo em várias partes menores e, posteriormente, reunir essas partes. O desenvolvimento deste script teve como principal motivação facilitar o uso do Topaz Video AI, uma ferramenta robusta de melhoria da qualidade de vídeos, que, entretanto, não possibilita pausar e retomar uma tarefa. Ao segmentar o vídeo em partes menores, cada segmento pode ser aprimorado individualmente. Depois que todas as partes são aprimoradas, elas podem ser unidas novamente.
 
 8. [Python Script for Data Augmentation and Image Conversion:](https://github.com/DevArqSangoi/das-dataAugmentation)
