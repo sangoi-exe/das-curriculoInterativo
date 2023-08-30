@@ -7,7 +7,7 @@
                 <div>Copyright (C) 1984-97, Award Software, Inc.</div>
                 <div>(55XWVQ0E) Intel i430VX PCIset(TM)</div>
             </div>
-            <img :src="energyStarLogo" alt="Energy Star Logo" class="energy-star-logo" />
+            <img src="@/assets/imgs/epa.png" alt="Energy Star Logo" class="energy-star-logo" />
         </div>
         <!-- Main section -->
         <div class="boot-screen-main">
@@ -38,7 +38,6 @@
 import { ref, onMounted, computed, watch, nextTick } from 'vue';
 import { vIntersectionObserver } from '@vueuse/components'
 
-const energyStarLogo = '../src/assets/imgs/epa.png';
 const showDetection = ref(false);
 const testComplete = ref(false);
 const memory = ref(0);

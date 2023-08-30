@@ -6,7 +6,7 @@
 
 - Adolescence was marked by technical curiosity, highlighted by an attempt to fix a computer at age 15.
 
-- Experiences with web development began with creating websites on platforms like GeoCities and HPG, learning HTML and loving technological experimentation.
+- Experiences with web development began with creating websites on platforms like GeoCities and HPG, learning HTML and enjoying technological experimentation.
 
 - Task automation was explored through modifying a bot in the game Ragnarok Online, learning Perl and generating profit from item sales.
 
