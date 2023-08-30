@@ -10,7 +10,7 @@
                 <div class="vefor" v-for="(item, index) in commandHistoryComputed" :key="index" :ref="item.ref">
                     <p class="commandline"><span class="cdoispontosOld" v-if="item.command">C:\DevArqSangoi&gt;</span><span class="command">{{
                         item.command }}</span></p>
-                    <span v-if="item.response" v-html="item.response" v-intersection-observer="adicionaClasseAosLinks"></span>
+                    <span v-if="item.response" v-html="item.response" v-intersection-observer="linkAnimation"></span>
                 </div>
                 <div v-if="!waitingForEnter" class="inpute">
                     <p class="cdoispontosNew" ref="inputScroll">C:\DevArqSangoi&gt;
@@ -30,8 +30,8 @@
 <script setup>
 
 import { ref, onMounted, reactive, computed, watch, nextTick } from 'vue';
-import MarkdownIt from 'markdown-it';
 import { vIntersectionObserver } from '@vueuse/components'
+import MarkdownIt from 'markdown-it';
 
 const emit = defineEmits(['rebootSystem']);
 
@@ -47,7 +47,7 @@ const waitingForEnter = ref(false);
 const currentSection = ref(0);
 const sections = ref([]);
 
-const docsWithPagination = ["historicodiretor", "projetos"];
+const docsWithPagination = ["historicodiretor", "historicotld", "projetos"];
 const sectionsToRender = 3;
 
 const commandHistoryComputed = computed(() => state.commandHistory);
@@ -114,11 +114,9 @@ function focaNoPressEnter([{ isIntersecting }]) {
     }
 }
 
-function adicionaClasseAosLinks([{ isIntersecting }]) {
-    console.log('vaibuceta')
+function linkAnimation([{ isIntersecting }]) {
     if (isIntersecting) {
         const links = document.querySelectorAll('.vefor a');
-        console.log(links)
         links.forEach((link) => {
             link.classList.remove('abluble');
             void link.offsetWidth;

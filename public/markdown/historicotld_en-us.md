@@ -1,25 +1,25 @@
-**Histórico com os Computadores – TL;DR;**
+**Computer History – TL;DR**
 
-- Fascínio por tecnologia surgiu aos 3 anos, marcado pela interação com um computador no local de trabalho do pai.
+- Fascination with technology emerged at age 3, marked by interaction with a computer at my father's workplace.
+  
+- Technological interactions continued in childhood, with first contact with Paint and computer classes, culminating in the acquisition of the first computer in 1996.
 
-- Interações tecnológicas continuaram na infância, com o primeiro contato com o Paint e aulas de informática, culminando na aquisição do primeiro computador em 1996.
+- Adolescence was marked by technical curiosity, highlighted by an attempt to fix a computer at age 15.
 
-- A adolescência foi marcada pela curiosidade técnica, destacando-se a tentativa de consertar um computador aos 15 anos.
+- Experiences with web development began with creating websites on platforms like GeoCities and HPG, learning HTML and loving technological experimentation.
 
-- Experiências com desenvolvimento web começaram com a criação de sites em plataformas como GeoCities e HPG, aprendendo HTML e amando a experimentação tecnológica.
+- Task automation was explored through modifying a bot in the game Ragnarok Online, learning Perl and generating profit from item sales.
 
-- Automatização de tarefas foi explorada através da modificação de um bot no jogo Ragnarok Online, aprendendo Perl e gerando lucro com venda de itens.
+- Transition through various internet platforms and social networks marked the digital journey, with a highlight on pioneering in creating a Gmail email account.¶
 
-- Transição por diversas plataformas de internet e redes sociais marcou a jornada digital, com destaque para pioneirismo ao criar um e-mail no Gmail.
+- Had experience in assembling and maintaining hardware, but the local market proved to be limited.
 
-- Teve experiência em montagem e manutenção de hardware, mas o mercado local mostrou-se limitado.
+- Attempt to enroll in a technical course in computer science was hindered by age restrictions, despite parental support.
 
-- Tentativa de ingressar em um curso técnico em informática foi barrada por restrições de idade, apesar do apoio dos pais.
+- In 2009, opted to study Architecture and Urban Planning, another field of interest. Worked professionally until the end of 2022 when the decision was made to switch careers to Information Technology.
 
-- Em 2009, optou por cursar Arquitetura e Urbanismo, um outro campo de interesse. Atuou profissionalmente até o final de 2022, quando decidiu mudar de carreira para a Tecnologia da Informação.
+- Experiences expanded beyond hardware, encompassing homepage development, establishing a solid foundation in understanding HTML code.
 
-- Experiências expandiram para além do hardware, abrangendo o desenvolvimento de homepages, criando uma base sólida no entendimento do código HTML.
+- The foundation in HTML facilitated the transition to IT, quickly absorbing new knowledge for job opportunities in the field.
 
-- A base em HTML facilitou a transição para a TI, absorvendo rapidamente novos conhecimentos para busca de oportunidades de trabalho na área.
-
-- Tentativas de migração para TI ocorreram em 2019 e 2021, mas compromissos da época impediram a mudança. A decisão definitiva de mudança de carreira foi tomada e executada, consolidando o ingresso na TI.
+- Attempts to transition to IT occurred in 2019 and 2021, but commitments at the time prevented the change. The final decision to change careers was made and executed, solidifying entry into IT.

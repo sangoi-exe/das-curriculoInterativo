@@ -26,7 +26,9 @@
         </div>
         <!-- Footer section -->
         <div class="boot-screen-footer">
-            <div @keydown="handleDel" tabindex="0" ref="enterSetup" class="pressEnter">Press <strong>&lt;DEL&gt;</strong> to enter SETUP</div>
+            <div @keydown="handleDel" v-intersection-observer="focaNoDel" tabindex="0" ref="enterSetup" class="pressEnter">Press
+                <strong>&lt;DEL&gt;</strong> to enter SETUP
+            </div>
             <div>12/10/97-i430VX,UMC8669-2A59GH2BC-00</div>
         </div>
     </div>
@@ -34,6 +36,7 @@
   
 <script setup>
 import { ref, onMounted, computed, watch, nextTick } from 'vue';
+import { vIntersectionObserver } from '@vueuse/components'
 
 const energyStarLogo = '../src/assets/imgs/epa.png';
 const showDetection = ref(false);
@@ -73,13 +76,18 @@ onMounted(() => {
 });
 
 onMounted(async () => {
-
     await nextTick();
     if (enterSetup.value) {
         enterSetup.value.focus();
     }
 
 });
+
+function focaNoDel([{ isIntersecting }]) {
+    if (isIntersecting) {
+        enterSetup.value.focus();
+    }
+}
 
 const handleDel = (event) => {
     if (event.keyCode === 110) {

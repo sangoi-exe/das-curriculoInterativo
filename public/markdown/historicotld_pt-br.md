@@ -10,7 +10,7 @@
 
 - Automatização de tarefas foi explorada através da modificação de um bot no jogo Ragnarok Online, aprendendo Perl e gerando lucro com venda de itens.
 
-- Transição por diversas plataformas de internet e redes sociais marcou a jornada digital, com destaque para pioneirismo ao criar um e-mail no Gmail.
+- Transição por diversas plataformas de internet e redes sociais marcou a jornada digital, com destaque para pioneirismo ao criar um e-mail no Gmail.¶
 
 - Teve experiência em montagem e manutenção de hardware, mas o mercado local mostrou-se limitado.
 
