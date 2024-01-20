@@ -1,35 +1,44 @@
-# das-curriculoInterativo
+# Project Structure
 
-This template should help get you started developing with Vue 3 in Vite.
+Timestamp: 20240120_163659
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
 ```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
++-- .prettierrc.json
++-- package.json
++-- vite.config.js
++-- .vscode\
+   +-- .vscode\extensions.json
++-- public\
+   +-- public\fonts\
+   +-- public\imgs\
+   +-- public\markdown\
++-- src\
+   +-- src\App.vue
+   +-- src\main.js
+   +-- src\assets\
+      +-- src\assets\fonts\
+      +-- src\assets\imgs\
+   +-- src\components\
+      +-- src\components\AppFooter.vue
+      +-- src\components\AppHeader.vue
+      +-- src\components\BootScreen.vue
+      +-- src\components\BruteForce.vue
+      +-- src\components\BruteForceSVG.vue
+      +-- src\components\HelloWorld.vue
+      +-- src\components\TerminalScreen.vue
+      +-- src\components\TheWelcome.vue
+      +-- src\components\WelcomeItem.vue
+      +-- src\components\icons\
+         +-- src\components\icons\IconCommunity.vue
+         +-- src\components\icons\IconDocumentation.vue
+         +-- src\components\icons\IconEcosystem.vue
+         +-- src\components\icons\IconSupport.vue
+         +-- src\components\icons\IconTooling.vue
+   +-- src\router\
+      +-- src\router\index.js
+   +-- src\stores\
+      +-- src\stores\counter.js
+   +-- src\views\
+      +-- src\views\AboutView.vue
+      +-- src\views\HomeView.vue
 ```
