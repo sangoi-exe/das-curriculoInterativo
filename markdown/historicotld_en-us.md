@@ -2,7 +2,7 @@
 
 - Fascination with technology emerged at age 3, marked by interaction with a computer at my father's workplace.
   
-- Technological interactions continued in childhood, with first contact with Paint and computer classes, culminating in the acquisition of the first computer in 1996.
+- Technological interactions continued in childhood, with first contact with Paint and computer classes, culminating in the acquisition of the first family computer on Christmas of 1996.
 
 - Adolescence was marked by technical curiosity, highlighted by an attempt to fix a computer at age 15.
 
