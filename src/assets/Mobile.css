@@ -1,0 +1,43 @@
+/* mobile.css - Estilos específicos para dispositivos móveis */
+
+@media only screen and (max-width: 1000px) {
+  .terminal-screen,
+  .boot-screen {
+    width: 100%; /* Ajuste para ocupar a largura total em dispositivos móveis */
+    height: auto; /* Altura automática para melhor adaptação */
+  }
+
+  .msdos-prompt input,
+  .command,
+  .cdOispontoOld,
+  .cdOispontosNew {
+    font-size: 1rem; /* Reduzindo o tamanho da fonte para melhor leitura */
+  }
+
+  .cmd-header,
+  .boot-screen-header {
+    padding-bottom: 0.1rem; /* Ajuste no padding para caber melhor na tela */
+  }
+
+  .energia-star-logo {
+    width: 20%; /* Ajuste no tamanho do logo para se adaptar à tela menor */
+  }
+
+  .deteccao-table {
+    width: 100%; /* Tabela ajustada para ocupar a largura total */
+  }
+
+  .boot-screen-footer,
+  .terminal-screen-footer {
+    padding: 1rem; /* Ajuste no padding do rodapé */
+  }
+
+  .commandline,
+  .boot-text {
+    font-size: 0.875rem; /* Redução no tamanho da fonte para melhor visualização */
+  }
+
+  .wait {
+    font-size: 1rem; /* Ajustando o tamanho da fonte para a tela de espera */
+  }
+}

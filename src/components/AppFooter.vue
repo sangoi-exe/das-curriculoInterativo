@@ -15,8 +15,8 @@ import BruteForce from './BruteForce.vue';
 
 const links = {
     "LinkedIn": "https://www.linkedin.com/in/lucas-sangoi/",
-    "GitHub": "https://github.com/DevArqSangoi",
-    "Instagram": "https://www.instagram.com/dev.arq.sangoi/",
+    "GitHub": "https://github.com/sangoi-exe",
+    "Instagram": "https://www.instagram.com/sangoi.exe/",
 };
 
 const linksArray = computed(() => Object.entries(links).map(([text, href]) => ({ text, href })));

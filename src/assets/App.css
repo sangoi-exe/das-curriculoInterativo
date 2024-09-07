@@ -33,7 +33,7 @@
 
 @-moz-document url-prefix() {
   .terminal-screen {
-    padding: 12px;
+    padding: 0.75rem; /* Antes: 12px */
   }
 }
 
@@ -67,8 +67,8 @@ p {
   font-family: 'Glass-TTY-VT220', Courier, monospace;
   border: none;
   outline: none;
-  font-size: 20px;
-  text-indent: 6px;
+  font-size: 1.25rem; /* Antes: 20px */
+  text-indent: 0.375rem; /* Antes: 6px */
   padding: 0;
 }
 
@@ -77,19 +77,19 @@ p {
 }
 
 .cdoispontosOld {
-  font-size: 20px;
+  font-size: 1.25rem; /* Antes: 20px */
 }
 
 .cdoispontosNew {
-  font-size: 20px;
+  font-size: 1.25rem; /* Antes: 20px */
 }
 
 .command {
-  margin-left: 6px;
+  margin-left: 0.375rem; /* Antes: 6px */
 }
 
 .command span {
-  margin-left: 6px;
+  margin-left: 0.375rem; /* Antes: 6px */
   margin: 0;
 }
 
@@ -128,7 +128,7 @@ p {
 }
 
 .cmd-header {
-  padding-bottom: 100px;
+  padding-bottom: 6.25rem; /* Antes: 100px */
 }
 
 .cmd-header p {
@@ -139,13 +139,13 @@ p {
 }
 
 .energy-star-logo {
-  width: 20%;
+  width: 12.5rem; /* Antes: 20% */
   height: auto;
 }
 
 .detection-table {
-  width: 45%;
-  padding-top: 20px;
+  width: 28.125rem; /* Antes: 45% */
+  padding-top: 1.25rem; /* Antes: 20px */
   border-spacing: 0px;
 }
 
@@ -202,10 +202,10 @@ footer {
 
 .boot-screen,
 .terminal-screen {
-  width: 1024px;
-  height: 768px;
-  padding-left: 0.2em;
-  padding-right: 0.2em;
+  width: 64rem; /* Antes: 1024px */
+  height: 48rem; /* Antes: 768px */
+  padding-left: 0.0125rem; /* Antes: 0.2em */
+  padding-right: 0.0125rem; /* Antes: 0.2em */
   position: relative;
   box-sizing: border-box;
   overflow: auto;
@@ -217,7 +217,7 @@ footer {
 .boot-screen-header {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem; /* Antes: 50px */
 }
 
 .boot-screen-main td {
@@ -233,7 +233,7 @@ footer {
 }
 
 .wait {
-  padding-top: 50px;
+  padding-top: 3.125rem; /* Antes: 50px */
 }
 
 .boot-screen-footer {
@@ -297,7 +297,7 @@ li {
 .abluble {
   position: relative;
   text-decoration: none;
-  overflow: hidden; 
+  overflow: hidden;
 }
 
 .abluble::after {
