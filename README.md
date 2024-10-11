@@ -1,21 +1,20 @@
 # Project Structure
 
-Timestamp: 20240120_163659
+Timestamp: 20241011_153742
 
 ```
++-- .eslintrc.cjs
 +-- .prettierrc.json
 +-- package.json
 +-- vite.config.js
-+-- .vscode\
-   +-- .vscode\extensions.json
-+-- public\
-   +-- public\fonts\
-   +-- public\imgs\
-   +-- public\markdown\
 +-- src\
    +-- src\App.vue
    +-- src\main.js
    +-- src\assets\
+      +-- src\assets\App.css
+      +-- src\assets\Mobile.css
+      +-- src\assets\base.css
+      +-- src\assets\main.css
       +-- src\assets\fonts\
       +-- src\assets\imgs\
    +-- src\components\
