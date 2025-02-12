@@ -1,11 +1,14 @@
 <template>
   <main class="terminal-screen">
     <div class="msdos-container">
+      <!-- Header -->
       <div class="cmd-header">
         <p>Microsoft MS-DOS version 2.11</p>
         <p>Copyright 1981,82,83 Microsoft Corp.</p>
         <p>{{ translations[language].helptip }}</p>
       </div>
+      
+      <!-- Main Content -->
       <div class="msdos-prompt">
         <div
           class="vefor"
@@ -14,8 +17,8 @@
           :ref="item.ref"
         >
           <p class="commandline">
-            <span class="cdoispontosOld" v-if="item.command">C:\sangoi-exe&gt;</span
-            ><span class="command">{{ item.command }}</span>
+            <span class="cdoispontosOld" v-if="item.command">C:\sangoi-exe&gt;</span>
+            <span class="command">{{ item.command }}</span>
           </p>
           <span
             v-if="item.response"
@@ -49,6 +52,7 @@
     </div>
   </main>
 </template>
+
 <script setup>
 import { ref, onMounted, reactive, computed, watch, nextTick } from 'vue'
 import { vIntersectionObserver } from '@vueuse/components'

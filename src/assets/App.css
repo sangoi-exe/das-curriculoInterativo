@@ -1,20 +1,20 @@
 @font-face {
-  font-family: 'Glass-TTY-VT220';
-  src: url('./fonts/Glass_TTY_VT220.ttf') format('truetype');
+  font-family: "Glass-TTY-VT220";
+  src: url("./fonts/Glass_TTY_VT220.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'clacon2';
-  src: url('./fonts/clacon2.ttf') format('truetype');
+  font-family: "clacon2";
+  src: url("./fonts/clacon2.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'ModernDOS9x16';
-  src: url('./fonts/ModernDOS9x16.ttf') format('truetype');
+  font-family: "ModernDOS9x16";
+  src: url("./fonts/ModernDOS9x16.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -37,11 +37,121 @@
   }
 }
 
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Glass-TTY-VT220", Courier, monospace;
+  font-size: 20px;
+  color: #00ff00;
+  background-color: #000000;
+}
+
+header {
+  text-shadow:
+    0 0 5px rgba(0, 255, 0, 0.7),
+    0 0 10px rgba(0, 255, 0, 0.6),
+    0 0 15px rgba(0, 255, 0, 0.5),
+    0 0 20px rgba(0, 255, 0, 0.4);
+  fill: #00ff00;
+  top: 0;
+}
+
+footer {
+  font-family: "ModernDOS9x16";
+  font-size: 16px;
+  text-shadow:
+    0 0 5px rgba(0, 255, 0, 0.7),
+    0 0 10px rgba(0, 255, 0, 0.6),
+    0 0 15px rgba(0, 255, 0, 0.5),
+    0 0 20px rgba(0, 255, 0, 0.4);
+  bottom: 0;
+}
+
+header,
+footer {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: #000000;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.content {
+  flex: 1; /* Ocupa todo o espaço disponível entre header e footer */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow: hidden; /* Evita scroll interno */
+}
+
 #App {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
+  height: 100vh;
   overflow: hidden;
+}
+
+.boot-screen,
+.terminal-screen {
+  width: 100%; /* Ocupa toda a largura do contêiner pai */
+  height: 100%; /* Ocupa toda a altura do contêiner pai */
+  padding-left: 20%; /* Mantém o padding conforme necessário */
+  padding-right: 20%;
+  position: relative;
+  box-sizing: border-box;
+  overflow: auto; /* Permite scroll interno se necessário */
+  scrollbar-gutter: stable both-edges;
+  scrollbar-width: 12px;
+  scrollbar-color: #00ff41 #00ff41 !important;
+}
+
+.boot-screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.boot-screen-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 3.125rem; /* Antes: 50px */
+}
+
+.boot-screen-main td {
+  line-height: 1.2;
+}
+
+.boot-screen-main p {
+  display: flex;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+.wait {
+  padding-top: 3.125rem; /* Antes: 50px */
+}
+
+.boot-screen-footer {  
+  position: absolute;
+  bottom: 0;
 }
 
 h3 {
@@ -64,7 +174,7 @@ p {
 .msdos-prompt input {
   background-color: transparent;
   color: #00ff00;
-  font-family: 'Glass-TTY-VT220', Courier, monospace;
+  font-family: "Glass-TTY-VT220", Courier, monospace;
   border: none;
   outline: none;
   font-size: 1.25rem; /* Antes: 20px */
@@ -128,7 +238,7 @@ p {
 }
 
 .cmd-header {
-  padding-bottom: 6.25rem; /* Antes: 100px */
+  padding-bottom: 15%;
 }
 
 .cmd-header p {
@@ -161,84 +271,6 @@ p {
 }
 .detection-table td:nth-child(3) {
   width: 15%;
-}
-
-header {
-  text-shadow:
-    0 0 5px rgba(0, 255, 0, 0.7),
-    0 0 10px rgba(0, 255, 0, 0.6),
-    0 0 15px rgba(0, 255, 0, 0.5),
-    0 0 20px rgba(0, 255, 0, 0.4);
-  fill: #00ff00;
-  top: 0;
-}
-
-footer {
-  font-family: 'ModernDOS9x16';
-  font-size: 16px;
-  text-shadow:
-    0 0 5px rgba(0, 255, 0, 0.7),
-    0 0 10px rgba(0, 255, 0, 0.6),
-    0 0 15px rgba(0, 255, 0, 0.5),
-    0 0 20px rgba(0, 255, 0, 0.4);
-  bottom: 0;
-}
-
-body {
-  margin: 0;
-  font-family: 'Glass-TTY-VT220', Courier, monospace;
-  font-size: 20px;
-  color: #00ff00;
-  background-color: #000000;
-}
-
-header,
-footer {
-  display: flex;
-  justify-content: center;
-  padding: 20px;
-  background-color: #000000;
-}
-
-.boot-screen,
-.terminal-screen {
-  width: 64rem; /* Antes: 1024px */
-  height: 48rem; /* Antes: 768px */
-  padding-left: 0.0125rem; /* Antes: 0.2em */
-  padding-right: 0.0125rem; /* Antes: 0.2em */
-  position: relative;
-  box-sizing: border-box;
-  overflow: auto;
-  scrollbar-gutter: stable both-edges;
-  scrollbar-width: 12px;
-  scrollbar-color: #00ff41 #00ff41 !important;
-}
-
-.boot-screen-header {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 3.125rem; /* Antes: 50px */
-}
-
-.boot-screen-main td {
-  line-height: 1.2;
-}
-
-.boot-screen-main p {
-  display: flex;
-  margin-block-start: 0;
-  margin-block-end: 0;
-  margin-inline-start: 0;
-  margin-inline-end: 0;
-}
-
-.wait {
-  padding-top: 3.125rem; /* Antes: 50px */
-}
-
-.boot-screen-footer {
-  position: absolute;
-  bottom: 0;
 }
 
 a {
@@ -301,7 +333,7 @@ li {
 }
 
 .abluble::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;

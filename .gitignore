@@ -26,3 +26,7 @@ coverage
 *.njsproj
 *.sln
 *.sw?
+
+.vscode
+Project_Snapshot.txt
+snapshot.py

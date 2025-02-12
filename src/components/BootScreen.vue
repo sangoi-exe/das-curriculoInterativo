@@ -9,6 +9,7 @@
       </div>
       <img src="@/assets/imgs/epa.png" alt="Energy Star Logo" class="energy-star-logo" />
     </div>
+    
     <!-- Main section -->
     <div class="boot-screen-main">
       <p>Intel(R) Pentium(R) PRO-MMX CPU at 120MHz</p>
@@ -17,16 +18,14 @@
         <tbody>
           <tr v-for="(step, index) in filteredDetectionSteps" :key="index">
             <td>{{ step.message }}</td>
-            <!-- Acessar usando .message -->
             <td style="text-align: left">{{ '.'.repeat(step.dots) }}</td>
-            <!-- Acessar usando .dots -->
             <td style="text-align: left">{{ step.none ? 'None' : '' }}</td>
-            <!-- Acessar usando .none -->
           </tr>
         </tbody>
       </table>
       <p v-if="stage === 4" class="wait">WAIT{{ waitDots }}</p>
     </div>
+    
     <!-- Footer section -->
     <div class="boot-screen-footer">
       <div
@@ -42,6 +41,7 @@
     </div>
   </div>
 </template>
+
 
 <script setup>
 import axios from 'axios'
