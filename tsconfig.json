@@ -13,8 +13,7 @@
     "types": ["vite/client"] // Include Vite types
   },
   "include": [
-    "src", // Main project source
-    "astenvuesion/src" // Secondary source folder (ensure the naming está correta)
+    "src" // Main project source
   ],
   "exclude": [
     "node_modules", // Exclude external modules

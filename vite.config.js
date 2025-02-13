@@ -3,7 +3,7 @@ import { defineConfig, loadEnv, Plugin } from "vite"
 import vue from "@vitejs/plugin-vue"
 import vueJsx from "@vitejs/plugin-vue-jsx"
 
-// Plugin opcional para coletar logs no console do servidor
+// Plugin  para coletar logs no console do servidor
 function clientLoggerPlugin() {
   return {
     name: "vite-plugin-client-logger",
@@ -86,11 +86,9 @@ export default ({ mode }) => {
     },
     build: {
       outDir: "dist",
-      // Multi-entrada para gerar dois builds: Portfolio (index.html) e Asten Vuesion
       rollupOptions: {
         input: {
           main: "./index.html",
-          astenVuesion: "./astenvuesion/index.html"
         }
       }
     },
